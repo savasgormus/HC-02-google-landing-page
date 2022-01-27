@@ -50,3 +50,13 @@ fakat footer__bottom yine header'daki gibi 2 farklı alandan oluşuyor. yani yin
 aynı şekilde footer__bottom--right için de ul oluşturduk ver HTML kısmını bitirdik.
 
 <!-- ----------------------------------------- CSS --------------------------------------------- -->
+
+1. satırda öncelikle margin ve padding'i sıfırlıyoruz. box-sizing'i border-box olarak ayarlıyoruz. browserdan kaynaklanabilecek gereksiz boşlukları engellemek için bu yönteme başvuruyoruz. Genel olarak font-size birbirine yakın olduğu için 13px olarak verdik ve font-family olarak arial'ı seçtik. <a> taglerinin altında çizgi olmasını istemiyoruz. sayfanın genelinde olmadığı için <!-- text-decoration: none; --> ekledik.
+
+9. satırda body'ye width olarak 100% verdik ki sayfamızın tamamını kaplasın. 1. satırdaki * ikonuna da verebilirdik.
+
+12. satırda .header'a still vermeye başlıyoruz.
+15. ve 17. satırda header iki bölümden oluşuyordu. FLOAT ile .header__left'i sola .header__right'ı da sağa yaslıyoruz.
+
+<ul> tagleri içerisindeki noktaları kaldırmak için <!-- list-style-type: none;  --> kullandık
+<ul li> içinde <!-- display: inline-block; --> kullandık. böylece listeler altalta durmayacak ve istediğimiz gibi yanyana şekilde sıralanacak.
