@@ -10,10 +10,10 @@ body{
     width: 100%;
 }
 .header{
-    padding: 15px 15px 0 15px;
+    padding: 15px 15px 0 15px; height: 40px;
 }
 .header__left{
-    float: left;
+    float: left; margin: 0.4rem; height: 18px;
 }
 .header__right{
     float: right;
@@ -24,13 +24,47 @@ ul{
 ul li{
     display: inline-block;
 }
+.clear{
+    clear: both;
+}
+ul a{
+    color: black;
+    opacity: 0.8;
+    padding: 0.5rem;
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.header__right--appicon{
+    vertical-align: middle;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.header__right--appicon:hover{
+    opacity: 1;
+}
+.header__right--button{
+    background-color: #4285f4;
+    border: none;
+    height: 30px;
+    width: 70px;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
+.header__right--button:hover{
+    background-color: #3478e7;
+}
 
+/* ----- Main ----- */
 
-
-
-
-
-
+.main__logo{
+    display: block;
+    height: 95px;
+    width: 272px;
+    margin: 200px auto 0 ;
+}
 
 
 

@@ -5,6 +5,10 @@ Block > element > modifer methodolojisi. Class isimlerindeki kargaşaya son verm
 .card__image (element)
 .card__button--success (modifier)
 
+
+https://aaron-clarusway.github.io/google-landing--page/
+
+
 <!-- --------------------- HTML -------------------------  -->
 <link rel="shortcut icon" href="./images/gfavicon.png" type="image/x-icon"> ile faviconu ekledik.
 
@@ -51,6 +55,8 @@ aynı şekilde footer__bottom--right için de ul oluşturduk ver HTML kısmını
 
 <!-- ----------------------------------------- CSS --------------------------------------------- -->
 
+<!-- ----- Header ----- -->
+
 1. satırda öncelikle margin ve padding'i sıfırlıyoruz. box-sizing'i border-box olarak ayarlıyoruz. browserdan kaynaklanabilecek gereksiz boşlukları engellemek için bu yönteme başvuruyoruz. Genel olarak font-size birbirine yakın olduğu için 13px olarak verdik ve font-family olarak arial'ı seçtik. <a> taglerinin altında çizgi olmasını istemiyoruz. sayfanın genelinde olmadığı için <!-- text-decoration: none; --> ekledik.
 
 9. satırda body'ye width olarak 100% verdik ki sayfamızın tamamını kaplasın. 1. satırdaki * ikonuna da verebilirdik.
@@ -60,3 +66,15 @@ aynı şekilde footer__bottom--right için de ul oluşturduk ver HTML kısmını
 
 <ul> tagleri içerisindeki noktaları kaldırmak için <!-- list-style-type: none;  --> kullandık
 <ul li> içinde <!-- display: inline-block; --> kullandık. böylece listeler altalta durmayacak ve istediğimiz gibi yanyana şekilde sıralanacak.
+
+28. satırdayız şekil olarak google resmi şu an <ul> taglerinin arasında kalıyor. bunun önüne geçmek için header'ın altına boş bir <div> açıyoruz. buradaki amaç resmi aşağıya alabilmek. daha sonra CSS tarafında bu boş <div> (class="clear") için display: cleariyoruz.
+
+30. satırda header içerisindeki linklerimizi stilize etmeye devam ediyoruz. paddingini, opacity ve hover durumunda verdiği özellikleri girdik.
+
+39. satırda ise sağ tarafı düzenlemeye yavaş yavaş başlıyoruz. öncelikle appicon'u dikey olarak ortaladık. hover durumundaki tepkisini belirledik.
+
+47. satırda sign in butonunu ve hover durumunu düzenledik. böylece header ile işimiz bitti.
+
+<!-- ----- Main ----- -->
+
+62. satırda logoyu düzenliyoruz. verilen height, width ve margini girdik. display'e block vermemizin sebebi ortada tutabilmek. yerini ve konumunu ayarladık.
