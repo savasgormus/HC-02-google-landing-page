@@ -77,4 +77,22 @@ aynı şekilde footer__bottom--right için de ul oluşturduk ver HTML kısmını
 
 <!-- ----- Main ----- -->
 
-62. satırda logoyu düzenliyoruz. verilen height, width ve margini girdik. display'e block vermemizin sebebi ortada tutabilmek. yerini ve konumunu ayarladık.
+62. satırda logoyu düzenliyoruz. verilen height, width ve margini girdik. display'e block vermemizin sebebi ortada tutabilmek.çünkü margin vererek yerini ve konumunu ayarlayabilmemizi sağladı.
+
+69. satırda search-bar'ı stilize ediyoruz. devamında ise hover durumunda gelen box-shadow efektini verdik.
+
+81. satırda magnifier logosunu düzenliyoruz. tekrar vertical-align kullanarak ortalıyoruz fakat margin vererek istediğimiz konumda görünmesini sağladık.
+
+88. search-bar içerisindeki input alanını stilize ediyoruz.
+standart olarak input alanında border geldiği için bunu border: none ile kaldırdım. aynı şekilde outline'ı da kaldırdım.
+vertical-align: middle; ile input alanının ortalamasını sağladık.
+
+97. microphone'u düzenledik.
+
+104. main__buttons'u düzenliyoruz. önce text-align: center; ile ortaladık. Şimdi ikisi arasındaki boşluğu ayarlıyoruz.Ve hover tepkisini ayarladık.
+
+<!-- ----- Footer ----- -->
+
+130. bottom:0 ve position: fixed ile footer kısmımızı web sayfasının sonuna aldık. width'i 100% verdik çünkü tamamını kaplamasını istiyoruz.
+
+148. float left ve right vererek en alttaki bölümü sağa ve sola dağıttık.

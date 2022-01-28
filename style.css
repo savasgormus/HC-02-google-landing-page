@@ -66,18 +66,90 @@ a:hover{
     margin: 200px auto 0 ;
 }
 
+.main__search-bar{
+    width: 460px;
+    height: 38px;
+    border: 1px solid #d3d3d3;
+    border-radius: 25px;
+    /* padding:3px 3px 3px 50px ; */
+    margin:  28px auto; padding-top: 2px;
+}
+.main__search-bar:hover{
+    box-shadow: rgb(211, 211, 211) 3px 3px 5px 0;
+}
 
+.main__search-bar--magnifier{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
 
+.main__search-bar--input{
+    width: 380px;
+    height: 30px;
+    border: none;
+    outline: none;
+    vertical-align: middle;
+    font-size: 1rem;
+}
 
-
-
-
-
-
-
-
-
-.main__search-bar--magnifier, .main__search-bar--microphone{
-    width: 20px;
+.main__search-bar--microphone{
+    width: 15px;
     height: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.main__buttons{
+    text-align: center;
+}
+
+.main__buttons--left, 
+.main__buttons--right{
+    height: 36px;
+    border: none;
+    background-color: #efefef;
+    border-radius: 4px;
+    padding: 0 16px;
+    margin: 11px 4px;
+}
+.main__buttons--left:hover, .main__buttons--right:hover{
+    border:1px solid #d3d3d3;
+    cursor: pointer;
+}
+
+.main__language{
+    text-align: center;
+}
+.main__language a{
+    color: #000080;
+}
+
+/* ----- Footer ----- */
+.footer{
+    bottom: 0;
+    position: fixed;
+    background-color: #f2f2f2;
+    line-height: 40px;
+    width: 100%;
+    color: #5f6368;
+}
+
+.footer__country{
+    padding-left: 18px;
+    font-size: 14px;
+}
+
+.footer__bottom{
+    border-top: 1px solid #d3d3d3;
+}
+
+.footer__bottom--left{
+    float: left;
+    padding-left: 10px;
+}
+.footer__bottom--right{
+    float: right;
+    padding-right: 10px;
 }
